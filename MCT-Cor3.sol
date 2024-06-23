@@ -10,7 +10,7 @@ contract saudaContract {
 uint public num;
 
     function TAssert() public view {
-        assert(num == 10);
+        assert(num == 100);
     }
     //revert()
     function TRevert(uint i) public pure {
